@@ -1,0 +1,50 @@
+/*
+    CSS Base que Será usado em todas paginas Web
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --cor-primaria: #162732;
+    --cor-secundaria: #D11F19;
+}
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Quicksand", sans-serif;
+}
+
+
+/* Override */
+
+/* .btn.btn-primary {
+    background-color: var(--cor-primaria);
+} */
+.btn-outline-primary{
+    margin-right: 5px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    border-color: var(--cor-primaria);
+    
+}
+.btn-outline-primary:hover{
+    background-color: var(--cor-secundaria); 
+    border-color: var(--cor-secundaria); 
+}   
+
+.btn-primary{
+    margin-right: 5px;
+    background-color: var(--cor-primaria);
+    color: #fff;
+    border-color: var(--cor-primaria);
+
+}
+.btn-primary:hover{
+    background-color: var(--cor-secundaria); 
+    border-color: var(--cor-secundaria); 
+}

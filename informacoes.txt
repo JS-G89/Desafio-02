@@ -1,0 +1,14 @@
+Criando um novo Projeto React
+
+1º Criar o Projeto com o comando...
+      npm creat-react-app nome-Projeto
+
+2º Limpar Base do Projeto
+     Patas public
+                Remover os 5 arquivos desnecessários
+                Deve ficar somente o index.html
+    Pasta src
+                Remover os 6 arquivos desnecessários
+                Deve ficar somente o App.js e o Index.js                 
+
+Daqui para baixo você vai construir de acordo com sua necesssidade......               
